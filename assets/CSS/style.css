@@ -1,0 +1,217 @@
+.pagecolor{
+    background-color: rgb(102, 102, 102);
+}
+
+.col{
+    color:white
+}
+#background{
+    text-align: center;
+}
+
+#icons{
+    font-size: 25px;
+}
+
+.card-img {
+    max-width: 100%;
+    height: 100%;
+  }
+
+#intro{
+    font-size: 70px;
+    color:rgb(255, 187, 0)
+}
+
+#intro2{
+    font-size: 40px;
+    color:rgb(255, 187, 0)
+}
+
+.card-text{
+    position: relative;
+    top:30%
+
+}
+
+#about-me{
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.button{
+    color:rgb(255, 255, 255);
+    font-size: 40px;
+    
+    
+}
+
+h3{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.center {
+    position: relative;
+    top:30%
+}
+
+
+
+@media screen and (max-width: 1080px) {
+    #intro{
+        font-size: 20px;
+        
+    }
+    #intro2{
+        font-size: 20px;
+    }
+    .center{
+        position: relative;
+        top:10%
+        
+    }
+    .container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+    }
+}
+
+.container{
+    padding-top: 75px;
+   
+}
+
+#skills{
+    
+    text-align: center;
+    font-size:50px;
+    padding-top: 100px;
+    font-weight: 600;
+}
+
+#work{
+  text-align: center;
+  font-size:50px;
+  padding-top: 100px;
+  font-weight: 600;
+}
+
+.work-text{
+  text-align: center;
+  font-size:20px;
+  padding-top: 50px;
+  font-weight: 600;
+}
+
+#projects-section{
+  text-align: center;
+  font-size: 30px
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+
+
+/*** <--- CIRCLE STYLES ---> ***/
+.wrap-circles {
+  display: flex;
+  min-height: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px
+  
+  
+}
+
+.circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 50%;
+  background: #FFCDB2;
+  overflow: hidden;
+}
+.circle.per-95 {
+    background-image: conic-gradient(rgb(255, 187, 0) 95%, rgb(170, 167, 167) 0);
+  }
+.circle.per-35 {
+  background-image: conic-gradient(rgb(255, 187, 0) 35%, rgb(170, 167, 167) 0);
+}
+.circle.per-80 {
+  background-image: conic-gradient(rgb(255, 187, 0) 80%, rgb(170, 167, 167) 0);
+}
+.circle.per-70 {
+  background-image: conic-gradient(rgb(255, 187, 0) 70%, rgb(170, 167, 167) 0);
+}
+.circle.per-85{
+  background-image: conic-gradient(rgb(255, 187, 0) 85%, rgb(170, 167, 167) 0);
+}
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: rgb(88, 86, 86);
+  border-radius: 50%;
+  font-size: 15px;
+  font-weight: 300;
+  color: rgb(255, 187, 0);
+}
+
+
+    
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+#txt1{
+  padding-bottom: 25px
+}
+#txt4{
+  padding-bottom: 20px
+}
+
+@media (max-width: 768px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+  
+  .carousel-inner .carousel-item-right.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(33.333%);
+  }
+}
+  
