@@ -1,0 +1,74 @@
+<div class="col-md-3">
+    <div class="card text-white bg-dark mb-3">
+         <img src="./images/terminal_screenshot.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" >Using Node JS and npm inquirer
+                <a href="https://github.com/Laurencvengros/README_generator" class="btn btn-warning">Click to view the website</a>
+            </div>
+    </div>
+</div>
+  </div>
+</div>
+<div class="carousel-item">
+  <div class="col-md-3">
+    <div class="card text-white bg-dark mb-3">
+         <img src="./images/Generated_Team_Screenshot.jpg"class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" >Working with Node JS inquirer, object oriented programming anf jest tests
+                <a href="https://github.com/Laurencvengros/Team_Profile_Generator" class="btn btn-warning">Click to view the website</a>
+            </div>
+    </div>
+</div>
+  </div>
+</div>
+<div class="carousel-item">
+<div class="col-md-3">
+    <div class="card text-white bg-dark mb-3">
+         <img src="./images/weather_dashboard.jpg"class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" >Working with JavaScript and third party APIs
+                <a href="https://github.com/Laurencvengros/Weather_Dashboard" class="btn btn-warning">Click to view the website</a>
+            </div>
+    </div>
+</div>
+  </div>
+</div>
+<div class="carousel-item">
+  <div class="col-md-3">
+    <div class="card text-white bg-dark mb-3">
+        <img src="./images/main_menu.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title" id="txt4">Working with Node JS and SQL</h5>
+                    <div class =" text-center">
+                        <a href="https://github.com/Laurencvengros/Employee_Tracker" class="btn btn-warning">Click to view the GitHub repository</a>
+                    </div>
+            </div>
+    </div>
+</div>
+</div>
+<div class="carousel-item">
+  <div class="col-md-3">
+    <div class="card text-white bg-dark mb-3">
+         <img src="./images/Daily_Planner_Screenshot.jpg"  class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Uses dynamic HTML and CSS and is powered by Jquery</h5>
+                    <div class =" text-center">
+                       <a href="https://laurencvengros.github.io/Daily_Planner/" class="btn btn-warning">Click to view the website</a>
+                   </div>
+            </div>
+    </div>
+  </div>
+</div>
+<div class="carousel-item">
+  <div class="col-md-3">
+    <div class="card text-white bg-dark mb-3">
+        <img src="./images/note_taker.jpg" class="card-img-top" alt="...">
+             <div class="card-body">
+                 <h5 class="card-title" id="txt3">Working with Expresss JS and Heroku</h5>
+                    <div class =" text-center">
+                        <a href="https://rocky-garden-53452.herokuapp.com/" class="btn btn-warning">Click to view the website</a>
+                    </div>
+              </div>
+    </div>
+  </div>
+</div>
