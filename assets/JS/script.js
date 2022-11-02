@@ -2,7 +2,7 @@
 //     $(this).scrollTop(0);
 // });
 
-// $('#recipeCarousel').carousel({
+// $('#carouselExampleControls').carousel({
 //   interval: 10000
 // })
 
@@ -25,4 +25,4 @@ $('.carousel .carousel-item').each(function(){
 });
 
 
-  //https://www.codeply.com/go/EIOtI7nkP8/bootstrap-carousel-with-multiple-cards
+
