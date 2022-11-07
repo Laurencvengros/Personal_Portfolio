@@ -1,5 +1,5 @@
-.pagecolor{
-    background-color: rgb(102, 102, 102);
+#navBar{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .col{
@@ -7,6 +7,25 @@
 }
 #background{
     text-align: center;
+}
+
+#nav{
+  color: rgb(255, 187, 0);
+  
+}
+
+.nav-item:hover{
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
+
+.carousel-card{
+  transform: scale(0.9);
+}
+
+.carousel-card:hover{
+  transform: scale(1.1); 
 }
 
 #icons{
@@ -18,29 +37,58 @@
     height: 100%;
   }
 
+  #intro0{
+    font-size: 100px;
+    color:rgb(255, 187, 0);
+    position: relative;
+    top: 33%;
+    right:10.2%
+    
+}
+
+
 #intro{
-    font-size: 70px;
-    color:rgb(255, 187, 0)
+    font-size: 100px;
+    color:rgb(255, 187, 0);
+   
+    
 }
 
 #intro2{
     font-size: 40px;
-    color:rgb(255, 187, 0)
+    color:rgb(255, 187, 0);
+    
+    
 }
 
-.card-text{
-    position: relative;
-    top:30%
 
+.card-text{
+    text-align: center;
+    position: relative;
+    top: 30%
+
+}
+.card-footer{
+  list-style: none;
+  display:flex;
+  margin: 0 10px;
+  justify-content:space-evenly ;
 }
 
 #about-me{
-    font-size: 50px;
-    font-weight: 600;
-    text-align: center;
+    font-size: 200px;
+    text-align: left;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    margin-left: 50px
     
+    
+}
+
+#aboutimg{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  left: 30%
 }
 
 .button{
@@ -57,14 +105,22 @@ h3{
 
 .center {
     position: relative;
-    top:30%
+    top:30%;
+    right: 7%
+    
 }
 
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1280px) {
+    #intro0{
+      font-size: 50px;
+      position: relative;
+      top: 22%
+    
+    } 
     #intro{
-        font-size: 20px;
+        font-size: 50px;
         
     }
     #intro2{
@@ -72,42 +128,65 @@ h3{
     }
     .center{
         position: relative;
-        top:10%
+        top:20%;
+        right: 2%
         
     }
+    .card-text{
+      text-align: center;
+      position: relative;
+      top: 20%
+  
+  }
     .container{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 1rem;
     }
+    #aboutimg{
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+      position: relative;
+      left: 20%
+    }
+    
 }
 
 .container{
     padding-top: 75px;
+    
    
 }
 
 #skills{
     
-    text-align: center;
-    font-size:50px;
-    padding-top: 100px;
-    font-weight: 600;
+    text-align: left;
+    font-size:200px;
+    padding-top: 300px;
+    margin-left: 50px;
+   
 }
 
+#skillsText{
+  
+}
+
+
 #work{
-  text-align: center;
-  font-size:50px;
-  padding-top: 100px;
-  font-weight: 600;
+  text-align: left;
+  font-size:200px;
+  padding-top: 300px;
+  margin-left: 50px;
 }
 
 .work-text{
   text-align: center;
   font-size:20px;
   padding-top: 50px;
-  font-weight: 600;
   color: rgb(255, 187, 0)
+}
+
+#work-description{
+  margin-top: 70px;
 }
 
 #projects-section{
@@ -130,7 +209,8 @@ h3{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  padding-top: 200px
+  padding-top: 50px;
+  padding-bottom: 200px;
   
   
 }
@@ -139,7 +219,7 @@ h3{
   position: relative;
   width: 150px;
   height: 150px;
-  margin: 20px;
+  margin: 10px;
   border-radius: 50%;
   background: #FFCDB2;
   overflow: hidden;
@@ -177,17 +257,21 @@ h3{
 }
 
 .card{
-  height:340px
+  height:340px;
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 20px;
+  
 }
 
 .card-title{
 font-size: 20px;
+margin-top: 20px;
 }
+
     
 .img-fluid{
   height: 200px
 }
-  
+
 
 @media (max-width: 768px) {
   .carousel-inner .carousel-item > div {
@@ -223,12 +307,72 @@ font-size: 20px;
 transform: translateX(0);
 }
 
-.carousel-control-prev{
+ .carousel-control-prev{
   position: relative;
-  left:60px
+  left:200px
 }
 
 .carousel-control-next{
   position: relative;
-  left:800px
+  left:600px
+} 
+
+
+#contactHeader{
+  margin-top: 100px;
+  font-size: 200px;
+  
+  
+}
+.emailPhone{
+  font-size: 30px;
+  margin-bottom: 50px;
+  margin-top: 50px
+}
+
+.carousel-item{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+#card-style{
+  height: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 100px
+}
+
+#divider{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+#contactCard{
+  background-color: rgb(255, 187, 0);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#footerText{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-top: 2px solid rgba(0, 0, 0, 0.35);
+  text-align: center;
+  color: rgb(255, 187, 0);;
+}
+
+#formBtn{
+  border: 2px solid rgb(255, 187, 0);
+  font-size: 29px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  color: rgb(255, 187, 0);
+  box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px 10px;
+  position: relative;
+  right:2%
+}
+
+#form-group{
+  align-items: center;
+}
+
+#spacer{
+  margin-top: 100px;
+  text-align: left;
 }

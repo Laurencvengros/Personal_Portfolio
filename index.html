@@ -4,81 +4,93 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Personal Portfolio</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"
+    />
         <link rel="stylesheet" href="./assets/CSS/style.css">
     </head>
-    <body class="pagecolor" >
-        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light ">
-            
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <body class="bg-dark" >
+        <nav class="navbar  sticky-top navbar-expand-lg navbar-light bg-dark " id="navBar">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          </button>
+            <div class="collapse navbar-collapse ms-2" id="navbarNavDropdown">
               <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#background">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#background" id="nav">Home <span class="sr-only">(current)</span></a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-me">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#skills">My Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#work">My Work</a>
-                    </li>
-                </ul>
+              </ul>
             </div>
-            <div class="d-flex justify-content-end nav-item" id="icons">
-                <a class="nav-link"  href= "#"><a href="https://github.com/Laurencvengros" id="github" class="fa fa-github"></a></a>
-                <a class="nav-link"  href= "#"><a href="https://www.linkedin.com/in/lauren-cvengros-a00957249/" id="linkedin" class="fa fa-linkedin"></a></a>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-me" id="nav">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills" id="nav">My Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#work" id="nav">My Work</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link " href="#contactHeader" id="nav">Contact Me</a>
+                </li>
+              </ul>
             </div>
-      </nav>
+        </nav>
       <div class=" " id="background">
             <img src="./images/DSC00542-Enhanced1.jpg" class="card-img" alt="...">
             <div class="card-img-overlay" >
-                <h1 class="card-text" id="intro">Hi, I'm Lauren.</h1>
-              <p class="card-text" id="intro2">I Am A Full Stack Developer.</p>
+                  <h1 class="card-text" id="intro0">Hi, </h1>
+                  <h1 class="card-text" id="intro">I'm Lauren.</h1>
+              <p class="card-text " id="intro2">I Am A Full Stack Developer.</p>
               <span class="center">
                     <div class="button">
-                        <a class="btn btn-light btn-sm" href="./images/resume.pdf" role="button">Download Resume</a>
-                        <button class="btn btn-light btn-sm" type="button">Contact Me</button>
+                        <a class="btn btn-outline-warning btn-lg bg-dark" href="./images/resume.pdf" role="button">Download Resume</a>
+                       
                    </div>
               </span>
             </div>
       </div>
-          <div id="about-me">About Me</div>
+          <div id="aboutSection"> 
+            <div id="about-me" class=" text-white-50 bg-dark">About Me.</div>
           
-          <div class="container ">
-            <div class="row ">
-              <div class="col-sm-6">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./images/placeholder.jpg" class="card-img-top" alt="...">
-                      
+              <div class="container ">
+                <div class="row ">
+                  <div class="col-sm-6">
+                    <h3 class="text-warning"> My name is Lauren Cvengros.</h3>
+                    <div class="text-white-50 bg-dark">
+                      <p> I am a 25 year old full stack web developer based in Grand Rapids, Michigan. I am a problem solver and a creative with an eye for detail specializing in building responsive, user friendly websites. </p>
+                      <p>I'm currently getting my training through Michigan State University's Web Development Bootcamp. I write my code primarily in JavaScript and also have experience with Node, Express, and SQL. I am always looking to expand my skillset and plan to further my knowledge to expand to any technology that will help me build even better apps</p>
+                      <p>I believe in addition to good development, good design is incredibly important, I like my websites to look as nice as they run. I work with React, HTML, CSS and Bootstrap to make that happen.</p>
+                      <p>I have a passion for learning and trying different things and love to take on new and challenging projects.</p>
+                  
                     </div>
+                  </div>  
+                  <div class="col-sm-6">
+                    <div class="card" id="aboutimg" style="width: 18rem;">
+                      <img src="./images/placeholder.jpg" class="card-img-top" alt="...">
+                    </div>
+                  </div>
+              </div>
+          </div>
+        <div id="skillsSection" class="text-white-50 bg-dark">        
+          <div id="skills">
+             My Skills.
+          </div>
+          <div class="container">
+              <div class ="row ">
+                <div class="col align-self-start" id="skillsText">
+                  <h1 class="text-warning">Here are a few of the things I'm best at.</h1>
                 </div>
-                
-              <div class="col-sm-6">
-                <h3> My name is Lauren Cvengros.</h3>
-                <p> I am a 25 year old full stack web developer based in Grand Rapids, Michigan. I am a problem solver and a creative with an eye for detail specializing in building responsive, user friendly websites. </p>
-                <p>I'm currently getting my training through Michigan State University's Web Development Bootcamp.  I write my code primarily in JavaScript and also have experience with Node, Express, and SQL. I am always looking to expand my skillset and plan to further my knowledge to expand to any technology that will help me build even better apps</p>
-                <p>I believe in addition to good development, good design is incredibly important, I like my websites to look as nice as they run. I work with HTML, CSS and Bootstrap to make that happen.</p>
-                <p>I have a passion for learning and trying different things and love to take on new and challenging projects.</p>
-            </div>
-            </div>
-            <div ></div>
-                <div id="skills"> My Skills</div>
-
-                    
+                <div class="col">
                   <div class="wrap-circles">
-                   
+                            
                     <div class="circle per-95">
-                        
                       <div class="inner">HTML & CSS</div>
                     </div>
                     <div class="circle per-90">
-                      <div class="inner">JavaScript/Query</div>
+                      <div class="inner">JavaScript</div>
                     </div>
                     <div class="circle per-70">
                       <div class="inner">Express JS</div>
@@ -87,87 +99,151 @@
                       <div class="inner">Node JS</div>
                     </div>
                     <div class="circle per-70">
-                        <div class="inner">SQL</div>
-                      </div>
-                      <div class="circle per-90">
-                        <div class="inner">REST APIs</div>
-                      </div>
+                      <div class="inner">SQL</div>
+                    </div>
+                    <div class="circle per-90">
+                      <div class="inner">REST APIs</div>
+                    </div>
                   </div>
-            </div>
-        <div id="work"> My Work</div>
-        <div class="work-text"> Click the images below for more details!</div>
-
-        <div class="container text-center my-3">
-          <div class="row mx-auto my-auto">
+                </div>
+              </div>
+          </div>
+        </div>
+        
+        <div id="work-section">
+          <div id="work" class="text-white-50 bg-dark"> My Work</div>
+            <div class="work-text"> Click the cards below for more details!</div>
+        </div>
+        <div class="container text-center my-4" id="carousel">
+          <div class="row mx-auto my-auto ">
             <div id="carouselExampleControls" class="carousel slide w-100" data-interval="false">
-              <div class="carousel-inner w-100"  role="listbox">
+              <div class="carousel-inner w-100 "  role="listbox">
                 <div class="carousel-item active">
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3">
-                      <a href="https://github.com/Laurencvengros/Project_2"><img src="./images/dashboard.png"class="img-fluid" alt="..."></a>
+                  <div class="col-md-4 carousel-card ">
+                    <div class="card bg-secondary mb-3">
+                        
                           <div class="card-body">
-                              <h5 class="card-title" >Working with RESTful APIs, Handlebars, authentication, mySQL and sequelize
-                            </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3">
-                      <a href="https://github.com/Laurencvengros/Employee_Tracker"><img src="./images/main_menu.jpg" class="img-fluid" alt="..."></a>
-                          <div class="card-body">
-                              <h5 class="card-title" >Working with Node JS and SQL
+                            <h5 class="card-title" ><a href="https://github.com/Laurencvengros/Project_2" class="text-warning">Level Up Fitness</a></h5>
+                            
+                            <h6 class="card-subtitle mb-2 text-dark " id="work-description">A full stack application working with RESTful APIs to plan your workouts using Node, Express, MySql and Handlebars to build RESTful APIs</h6>
                           </div>
+                          <footer>
+                              <ul class="card-footer text-warning">
+                                <li>Node.js</li>
+                                <li>MySql</li>
+                                <li>Sequelize</li>
+                                <li>Express.js</li>
+                              </ul>    
+                          </footer>
+                            
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3">
-                        <a href= "https://github.com/Laurencvengros/README_generator"><img src="./images/terminal_screenshot.jpg"class="img-fluid" alt="..."></a>     
+                  <div class="col-md-4 carousel-card">
+                    <div class="card text-white bg-secondary mb-3">
+                      <div class="card-body">
+                            <h5 class="card-title text-warning"><a href="https://github.com/Laurencvengros/Employee_Tracker" class="text-warning">Employee Manager</a></h5>
+                            <h6 class="card-subtitle mb-2 text-dark" id="work-description">A back end Node.JS application that uses MySQL and runs in the terminal to allow the user to keep track of their employees and manager departments in the workplace. You can add/delete employees, dpeartments and rolls and track their salaries.</h6>
+                      </div>
+                      <footer>
+                        <ul class="card-footer text-warning">
+                          <li>Node.js</li>
+                          <li>MySql</li>
+                        </ul>    
+                      </footer>
+                      
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-4 carousel-card">
+                    <div class="card text-white bg-secondary mb-3">
+                        
                           <div class="card-body">
-                              <h5 class="card-title" >Working with Node JS inquirer, object oriented programming and jest tests
+                            <h5 class="card-title text-warning"><a href= "https://github.com/Laurencvengros/README_generator" class="text-warning">READme Generator</a></h5>     
+                              <h6 class="card-subtitle mb-2 text-dark" id="work-description" >A Node.JS application that uses npm inquirer allowing the user to save time by using the prompts in the terminal to create a professional looking READme</h6>
+                          </div>   
+                            <footer>
+                              <ul class="card-footer text-warning">
+                                <li>Node.js</li>
+                                 <li>inquirer</li>
+                              </ul>
+                            </footer>
+                          
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="col-md-4 carousel-card">
+                    <div class="card text-white bg-secondary mb-3">
+                             
+                          <div class="card-body">
+                            <h5 class="card-title text-warning"><a href= "https://github.com/Laurencvengros/Team_Profile_Generator" class="text-warning">Team Profile Generator</a></h5>
+                            <h6 class="card-subtitle mb-2 text-dark" id="work-description">A Node.JS application that uses npm inquirer and jest tests to generate an HTML page that displays the users team members.</h6>
                           </div>
+                          <footer>
+                            <ul class="card-footer text-warning">
+                              <li>Node.js</li>
+                               <li>inquirer</li>
+                               <li>Jest</li>
+                            </ul>
+                          </footer>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3">
-                        <a href= "https://github.com/Laurencvengros/Team_Profile_Generator"><img src="./images/Generated_Team_Screenshot.jpg"class="img-fluid" alt="..."></a>     
+                  <div class="col-md-4 carousel-card">
+                    <div class="card text-white bg-secondary mb-3">
+                        
                           <div class="card-body">
-                              <h5 class="card-title" >Working with Node JS inquirer, object oriented programming and jest tests
+                            <h5 class="card-title text-warning"><a href= "https://github.com/Laurencvengros/Note_Taker" class="text-warning">Note Taker</a></h5> 
+                            <h6 class="card-subtitle mb-2 text-dark" id="work-description">An Express.JS application deployed using Heroku that allows the user to create, save, edit and delete notes to keep track of important to do's</h6>
                           </div>
+                          <footer>
+                            <ul class="card-footer text-warning">
+                              <li>Node.js</li>
+                               <li>inquirer</li>
+                               <li>Heroku</li>
+                            </ul>
+                          </footer>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3">
-                        <a href= "https://github.com/Laurencvengros/Note_Taker"><img src="./images/note_taker.jpg"class="img-fluid" alt="..."></a>     
+                  <div class="col-md-4 carousel-card">
+                    <div class="card text-white bg-secondary mb-3">
+                        
                           <div class="card-body">
-                              <h5 class="card-title" >Working with Expresss JS and Heroku
+                            <h5 class="card-title text-warning"><a href= "https://github.com/Laurencvengros/Daily_Planner" class="text-warning">Daily Planner</a></h5>     
+                              <h6 class="card-subtitle mb-2 text-dark" id="work-description">A Front End application that uses dynamic HTML, CSS and Jquery allowing the user to plan their day </h6>
                           </div>
+                          <footer>
+                            <ul class="card-footer text-warning">
+                              <li>HTML</li>
+                               <li>CSS</li>
+                               <li>Javascript</li>
+                            </ul>
+                          </footer>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3">
-                        <a href= "https://laurencvengros.github.io/Daily_Planner/"><img src="./images/Daily_Planner_Screenshot.jpg"class="img-fluid" alt="..."></a>     
+                  <div class="col-md-4 carousel-card">
+                    <div class="card text-white bg-secondary mb-3">
+                      
                           <div class="card-body">
-                              <h5 class="card-title" >Uses dynamic HTML and CSS and is powered by Jquery
+                            <h5 class="card-title text-warning"><a href="https://github.com/Laurencvengros/Weather_Dashboard"class="text-warning">Weather Dashboard</a></h5>
+                            <h6 class="card-subtitle mb-2 text-dark" id="work-description">A Front End application that uses the OpenWeather API so the user may search the forecast for any city they'd like</h6>
                           </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3">
-                      <a href="https://github.com/Laurencvengros/Weather_Dashboard"><img src="./images/weather_dashboard.jpg"class="img-fluid" alt="..."></a>
-                          <div class="card-body">
-                              <h5 class="card-title" >Working with JavaScript and third party APIs
-                            </div>
+                          <footer>
+                            <ul class="card-footer text-warning">
+                              <li>HTML</li>
+                               <li>CSS</li>
+                               <li>Javascript</li>
+                               <li>Third Party APIs</li>
+                            </ul>
+                          </footer>
                     </div>
                   </div>
                 </div>
@@ -175,16 +251,58 @@
                 
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="fa fa-arrow-circle-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
               <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="fa fa-arrow-circle-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
             </div>
           </div>
         </div>
+        <section class="text-white-50 bg-dark"id="divider">
+         <h1 id="contactHeader" > Contact Me!</h1>
+         <div class="container text-center">
+          <div class="row align-items-center">
+            <div class="col">
+              <div class="card border-dark mb-3" id="card-style" style="max-width: 20rem;">
+                <div class="card-header" id="contactCard">Phone</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title"> (231) 360-0335 </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-dark mb-3" id="card-style"style="max-width: 20rem;">
+                <div class="card-header" id="contactCard">Email</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title"> <a href="mailto:l.cvengros@icloud.com" style="color: black">L.Cvengros@icloud.com</a></h5>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card border-dark mb-3" id="card-style" style="max-width: 22rem;">
+                <div class="card-header" id="contactCard">Github</div>
+                <div class="card-body text-dark">
+                  <h5 class="card-title"><a href="https://github.com/Laurencvengros" style="color: black">github.com/Laurencvengros</a></h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="bg-dark" id="spacer">.</div>
+          </div>
+        </section>
+        
+        <footer class="bg-dark text-center text-lg-start">
+          
+          <div class="text-center p-3 bg-dark" id="footerText">
+            Designed and Built by Lauren Cvengros
+          </div>
+        </footer>
+        
+    
 
        
             

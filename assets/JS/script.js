@@ -1,10 +1,3 @@
-// $(document).ready(function(){
-//     $(this).scrollTop(0);
-// });
-
-// $('#carouselExampleControls').carousel({
-//   interval: 10000
-// })
 
 $('.carousel .carousel-item').each(function(){
     var minPerSlide = 3;
@@ -23,6 +16,4 @@ $('.carousel .carousel-item').each(function(){
         next.children(':first-child').clone().appendTo($(this));
       }
 });
-
-
 
