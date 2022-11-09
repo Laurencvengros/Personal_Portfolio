@@ -38,26 +38,29 @@
               </ul>
             </div>
         </nav>
-      <div class=" " id="background">
+        <div class="d-flex p-0" id="background">
             <img src="./images/DSC00542-Enhanced1.jpg" class="card-img" alt="...">
             <div class="card-img-overlay" >
-                  <h1 class="card-text" id="intro0">Hi, </h1>
-                  <h1 class="card-text" id="intro">I'm Lauren.</h1>
-              <p class="card-text " id="intro2">I Am A Full Stack Developer.</p>
-              <span class="center">
-                    <div class="button">
-                        <a class="btn btn-outline-warning btn-lg bg-dark" href="./images/resume.pdf" role="button">Download Resume</a>
-                       
-                   </div>
-              </span>
+              <div class = "container" id="vertical-center">
+                <div class = "row">
+                  <h1 class=" col-12  card-text intro" >Hi, </h1>
+                  <h1 class="col-12 card-text intro" >I'm Lauren.</h1>
+                  <p class="col-12 card-text intro2">I Am A Full Stack Developer.</p>
+                    <span class="col-12 resume-btn">
+                      <div class="button">
+                        <a class="btn btn-outline-warning btn-md bg-dark" id="resume-btn" href="./images/resume.pdf" role="button">Download Resume</a>
+                      </div>
+                    </span>
+                </div>
+              </div>
             </div>
-      </div>
-          <div id="aboutSection"> 
+        </div>
+        <div id="aboutSection" > 
             <div id="about-me" class=" text-white-50 bg-dark">About Me.</div>
           
               <div class="container ">
                 <div class="row ">
-                  <div class="col-sm-6">
+                  <div class="col-md-8 col-sm-12 order-sm-first order-last">
                     <h3 class="text-warning"> My name is Lauren Cvengros.</h3>
                     <div class="text-white-50 bg-dark">
                       <p> I am a 25 year old full stack web developer based in Grand Rapids, Michigan. I am a problem solver and a creative with an eye for detail specializing in building responsive, user friendly websites. </p>
@@ -67,23 +70,21 @@
                   
                     </div>
                   </div>  
-                  <div class="col-sm-6">
-                    <div class="card" id="aboutimg" style="width: 18rem;">
-                      <img src="./images/placeholder.jpg" class="card-img-top" alt="...">
-                    </div>
+                  <div class="col-md-4 col-sm-12">
+                    <img src="./images/placeholder.jpg" class="img-responsive" id="aboutimg" alt="..." width="100%">
                   </div>
               </div>
-          </div>
+        </div>
         <div id="skillsSection" class="text-white-50 bg-dark">        
           <div id="skills">
              My Skills.
           </div>
           <div class="container">
               <div class ="row ">
-                <div class="col align-self-start" id="skillsText">
+                <div class="col-sm-4 align-self-start" id="skillsText">
                   <h1 class="text-warning">Here are a few of the things I'm best at.</h1>
                 </div>
-                <div class="col">
+                <div class="col-sm-8  order-last">
                   <div class="wrap-circles">
                             
                     <div class="circle per-95">
@@ -261,11 +262,11 @@
             </div>
           </div>
         </div>
-        <section class="text-white-50 bg-dark"id="divider">
-         <h1 id="contactHeader" > Contact Me!</h1>
+        <section id="divider">
+         <div class="text-white-50 bg-dark" id="contactHeader" > Contact Me!</div>
          <div class="container text-center">
           <div class="row align-items-center">
-            <div class="col">
+            <div class="col-md-4 col-sm-12">
               <div class="card border-dark mb-3" id="card-style" style="max-width: 20rem;">
                 <div class="card-header" id="contactCard">Phone</div>
                 <div class="card-body text-dark">
@@ -273,7 +274,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col-md-4 col-sm-12">
               <div class="card border-dark mb-3" id="card-style"style="max-width: 20rem;">
                 <div class="card-header" id="contactCard">Email</div>
                 <div class="card-body text-dark">
@@ -281,8 +282,8 @@
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="card border-dark mb-3" id="card-style" style="max-width: 22rem;">
+            <div class="col-md-4 col-sm-12">
+              <div class="card border-dark mb-3" id="card-style" style="max-width: 20rem;">
                 <div class="card-header" id="contactCard">Github</div>
                 <div class="card-body text-dark">
                   <h5 class="card-title"><a href="https://github.com/Laurencvengros" style="color: black">github.com/Laurencvengros</a></h5>

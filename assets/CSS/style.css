@@ -37,30 +37,6 @@
     height: 100%;
   }
 
-  #intro0{
-    font-size: 100px;
-    color:rgb(255, 187, 0);
-    position: relative;
-    top: 33%;
-    right:10.2%
-    
-}
-
-
-#intro{
-    font-size: 100px;
-    color:rgb(255, 187, 0);
-   
-    
-}
-
-#intro2{
-    font-size: 40px;
-    color:rgb(255, 187, 0);
-    
-    
-}
-
 
 .card-text{
     text-align: center;
@@ -85,10 +61,33 @@
     
 }
 
+#skills{
+    
+  text-align: left;
+  font-size:200px;
+  padding-top: 300px;
+  margin-left: 50px;
+ 
+}
+
+#work{
+  text-align: left;
+  font-size:200px;
+  padding-top: 300px;
+  margin-left: 50px;
+}
+
+#contactHeader{
+  margin-top: 100px;
+  font-size: 200px;
+  
+  
+}
+
+
 #aboutimg{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  position: relative;
-  left: 30%
+ 
 }
 
 .button{
@@ -106,48 +105,111 @@ h3{
 .center {
     position: relative;
     top:30%;
-    right: 7%
+    right: 7%;
+    font-size: 20px
     
 }
 
-
-
-@media screen and (max-width: 1280px) {
-    #intro0{
-      font-size: 50px;
-      position: relative;
-      top: 22%
-    
-    } 
-    #intro{
-        font-size: 50px;
-        
-    }
-    #intro2{
-        font-size: 20px;
-    }
-    .center{
-        position: relative;
-        top:20%;
-        right: 2%
-        
-    }
-    .card-text{
-      text-align: center;
-      position: relative;
-      top: 20%
+#vertical-center {
+  margin-top: 15%
   
+}
+
+.intro{
+  font-size: 70px;
+  color: rgb(255, 187, 0)
+}
+
+.intro2{
+  font-size: 50px;
+  color: grey
+}
+
+@media screen and (max-width: 560px) {
+
+  .intro{
+    font-size: 20px;
+    color: rgb(255, 187, 0)
   }
-    .container{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 1rem;
-    }
-    #aboutimg{
+  
+  .intro2{
+    font-size: 20px;
+    color: grey
+  }
+
+  .button{
+    margin-top: 2px;
+    font-size: 10px;
+  }
+
+  #vertical-center {
+    margin-top: 2px
+    
+  }
+  #about-me {
+    font-size: 50px;
+  }
+
+  #skills{
+    font-size: 50px;
+  }
+
+  #work{
+    font-size: 50px;
+  }
+
+  #contactHeader{
+    font-size: 50px;
+  }
+}
+
+
+@media screen and (min-width:561px) and (max-width: 1030px) {
+
+  .intro{
+    font-size: 30px;
+    color: rgb(255, 187, 0)
+  }
+  
+  .intro2{
+    font-size: 20px;
+    color: grey
+  }
+
+  .resume-btn{
+    margin-top: 10%
+  }
+
+  #vertical-center {
+    margin-top: 2%
+    
+  }
+  
+  .container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1rem;
+        
+  }
+  #aboutimg{
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-      position: relative;
-      left: 20%
-    }
+      
+  }
+  #about-me{
+    font-size: 50px;
+  }
+
+  #skills{
+    font-size: 50px;
+  }
+
+  #work{
+    font-size: 50px;
+  }
+
+  #contactHeader{
+    font-size: 50px;
+  }
     
 }
 
@@ -157,26 +219,9 @@ h3{
    
 }
 
-#skills{
-    
-    text-align: left;
-    font-size:200px;
-    padding-top: 300px;
-    margin-left: 50px;
-   
-}
-
-#skillsText{
-  
-}
 
 
-#work{
-  text-align: left;
-  font-size:200px;
-  padding-top: 300px;
-  margin-left: 50px;
-}
+
 
 .work-text{
   text-align: center;
@@ -318,12 +363,7 @@ transform: translateX(0);
 } 
 
 
-#contactHeader{
-  margin-top: 100px;
-  font-size: 200px;
-  
-  
-}
+
 .emailPhone{
   font-size: 30px;
   margin-bottom: 50px;
